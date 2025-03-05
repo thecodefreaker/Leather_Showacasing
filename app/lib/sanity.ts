@@ -6,11 +6,11 @@ import { SanityImageSource } from "@sanity/image-url/lib/types/types"; // ✅ Im
 
 // Initialize Sanity Client
 export const sanityClient = createClient({
-  projectId: "birgj4m8",
-  dataset: "production",
-  apiVersion: "2021-03-25",
+  projectId: "NAME_PROJECT",
+  dataset: "NAME_DATASET",
+  apiVersion: "V_API",
   useCdn: false,
-  token:"skEg0JTFahyq6Aghdzr9ngPdsqB8t5oRGLHgAwIqBn1BzrLK5HZYVgbFVhzMy15xVH9KDPtr8mTeWJJXtnD5oz0i2m2KOGmKhYCj67t0CG8uXBpKXg3F1KvIjKprKsyeSuow6raOD91ANVV5Jc5fPMMoVdzw1kZXCKbVg3yFrjdc4sVtGYUx",
+  token:"API_TOKEN",
 });
 
 // Configure Image URL Builder
